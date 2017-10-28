@@ -8,20 +8,22 @@
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
 </head>
 <body>
-<header>
+<header class="header">
     <div class="container">
-        <div class="logo">
-            <img src="img/logo.png" alt="minimo"/>
-            <h1>minimo blog</h1>
+        <div class="overflow">
+            <div class="logo">
+                <img src="img/logo.png" alt="minimo"/>
+                <h1>minimo blog</h1>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a>lifestyle</a></li>
+                    <li><a>photodiary</a></li>
+                    <li><a>music</a></li>
+                    <li><a>travel</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav class="main-nav">
-            <ul>
-                <li><a>lifestyle</a></li>
-                <li><a>photodiary</a></li>
-                <li><a>music</a></li>
-                <li><a>travel</a></li>
-            </ul>
-        </nav>
     </div>
 </header>
 
@@ -91,8 +93,10 @@
 
 <section class="subscribe">
     <form class="form-subscribe" action="#" name="form" autocomplete="on" method="get">
-        <input class="email" type="email" name="subscribe" placeholder="Enter a valid email address"/>
-        <button class="btn-submit" type="submit" name="submit"></button>
+        <div class="email-letter">
+            <input class="email" type="email" name="subscribe" placeholder="Enter a valid email address"/>
+            <button class="btn-submit" type="submit" name="submit"></button>
+        </div>
     </form>
 </section>
 
@@ -120,15 +124,17 @@
 
 <footer class="footer">
     <div class="container">
-        <div class="footer-link">
-            <a>Terms and conditions</a>
-            <a>Privacy</a>
+        <div class="overflow">
+            <div class="footer-link">
+                <a>Terms and conditions</a>
+                <a>Privacy</a>
+            </div>
+            <ul class="social-list">
+                <li class="facebook"><a></a></li>
+                <li class="twitter"><a></a></li>
+                <li class="instagram"><a></a></li>
+            </ul>
         </div>
-        <ul class="social-list">
-            <li class="facebook"><a></a></li>
-            <li class="twitter"><a></a></li>
-            <li class="instagram"><a></a></li>
-        </ul>
     </div>
 </footer>
 </body>

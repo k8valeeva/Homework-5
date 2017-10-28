@@ -23,15 +23,17 @@ button{
     width: 1065px;
     margin: 0 auto;
 }
-    /* HEADER */
-header{
-    padding: 75px 0;
+.overflow{
     overflow: hidden;
+}
+    /* HEADER */
+.header{
+    padding: 75px 0;
 }
 .logo{
     float: left;
-    height: 23px;
-    width: 119px;
+    max-height: 23px;
+    max-width: 119px;
     overflow: hidden;
 }
 .main-nav{
@@ -40,6 +42,9 @@ header{
 .main-nav li{
     float: left;
     margin-left: 120px;
+}
+.main-nav li:first-child{
+    margin-left: 0;
 }
 .main-nav li a{
     display: block;
@@ -112,8 +117,6 @@ a.comment:hover{
     width: 100%;
     max-width: 420px;
     margin: 0 auto;
-    padding: 15px 0;
-    border-bottom: 1px solid #000;
     font-size: 14px;
 }
 input.email{
@@ -129,6 +132,10 @@ input.email{
     height: 17px;
     border: none;
     outline: none;
+}
+.email-letter{
+    border-bottom: 1px solid #000;
+    padding: 15px 0;
 }
 
     /* FULL-ARTICLE-LIST */
@@ -178,12 +185,12 @@ input.email{
     width: 20px;
     height: 15px;
 }
-.facebook:nth-child(1){
+.facebook{
     background: url(../img/social-list.png) no-repeat;
 }
-.twitter:nth-child(2){
+.twitter{
     background: url(../img/social-list.png) -25px 0 no-repeat;
 }
-.instagram:nth-child(3){
+.instagram{
     background: url(../img/social-list.png) -58px 0 no-repeat;
 }
